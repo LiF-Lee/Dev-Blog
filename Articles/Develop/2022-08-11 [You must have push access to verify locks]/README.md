@@ -2,7 +2,7 @@
 
 **`📌 Create`** `2022-08-11`
 
-**`🖍 Edit`** `2022-08-11`
+**`🖍 Edit`** `2022-08-12`
 
 <hr>
 
@@ -17,6 +17,8 @@ error: failed to push some refs to 'https://github.com/LiF-Lee/Project-A.git'
 ```
 
 검색 해보니 lfs에서 deploy 된 키로 인증이 안되는 문제라고 한다.
+
+아래와 같이 입력해서 해결했다.
 
 ```bash
 $ git lfs locks
