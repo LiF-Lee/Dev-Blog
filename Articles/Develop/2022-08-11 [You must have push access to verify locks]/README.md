@@ -19,7 +19,6 @@ error: failed to push some refs to 'https://github.com/LiF-Lee/Project-A.git'
 검색 해보니 lfs에서 deploy 된 키로 인증이 안되는 문제라고 한다.
 
 ```bash
-$ git lfs uninstall
+$ git lfs locks
+$ git config 'lfs.locksverify' false
 ```
-
-lfs uninstall 한 후 push하니 잘 된다.
