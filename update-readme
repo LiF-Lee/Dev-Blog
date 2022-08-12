@@ -6,6 +6,13 @@ function generate_project_tree() {
   # This is a ported version for mac
 
   IGNORED="venv|update-readme|README.md"
+  SED_FOR_MAC="gsed"
+
+  if [[ "$OSTYPE" == "darwin"* ]]; then
+    SED=$SED_FOR_MAC
+  else
+    SED="sed"
+  fi
 
   tree -d -tf --noreport -I $IGNORED --charset ascii "$1" |
     $SED -e '1d' |                                        # Cut first line
