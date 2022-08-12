@@ -1,9 +1,13 @@
-# You must have push access to verify locks
-
-**`📌 Create`** `2022-08-11`
-
-**`🖍 Edit`** `2022-08-12`
-
+<hr>
+<div style="font-weight: bold; font-size: 36px;">
+    <span style="color: gray; background-color: rgb(254 205 211); border-radius: 0.4rem;"><span style="margin: 0.3rem;">Error</span></span>
+    <span>You must have push access to verify locks</span>
+</div>
+<div align="right" style="color: gray;">
+    <span>Create 2022.08.11.</span>
+    <span style="margin: 4px; font-weight: bold; font-size: 20px;">·</span>
+    <span>Edit 2022.08.12.</span>
+</div>
 <hr>
 
 git lfs 용량 생각을 안하고 작업해서,
