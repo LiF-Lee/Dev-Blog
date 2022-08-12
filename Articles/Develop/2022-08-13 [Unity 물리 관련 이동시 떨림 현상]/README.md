@@ -4,9 +4,9 @@
     <span>Unity 물리 관련 이동시 떨림 현상</span>
 </div>
 <div align="right" style="color: gray;">
-    <span>Create </span><span>2022.08.11.</span>
+    <span>Create </span><span>2022.08.13.</span>
     <span style="margin: 4px; font-weight: bold; font-size: 20px;">·</span>
-    <span>Edit </span><span>2022.08.12.</span>
+    <span>Edit </span><span>2022.08.13.</span>
 </div>
 <hr>
 <br>
@@ -17,7 +17,7 @@
 ```cs
 void Update()
 {
-    // 기존에 있던 코드
+    // 물리 관련 이동을 처리하는 코드
 }
 ```
 
@@ -28,15 +28,6 @@ void Update()
 ```cs
 void FixedUpdate()
 {
-    // 기존에 있던 코드
+    // 물리 관련 이동을 처리하는 코드
 }
-```
-
-검색 해보니 lfs에서 deploy 된 키로 인증이 안되는 문제라고 한다.
-
-아래와 같이 입력해서 해결할 수 있었다.
-
-```bash
-$ git lfs locks
-$ git config 'lfs.locksverify' false
 ```
