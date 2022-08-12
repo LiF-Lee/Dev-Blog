@@ -1,4 +1,11 @@
-# Develop Blog
+<hr> <!-- Header -->
+<div align="center" style="font-weight: bold; font-size: 36px;">
+    <span>Personal Blog</span>
+</div>
+<hr>
+<br>
+<br>
+
 ```cs
 public partial class Articles
 {
