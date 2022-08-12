@@ -9,7 +9,11 @@ function generate_project_tree() {
   SED_FOR_MAC="gsed"
 
   if [[ "$OSTYPE" == "darwin"* ]]; then
+    if command -v $SED_FOR_MAC >/dev/null; then
     SED=$SED_FOR_MAC
+    else
+      echo "$SED_FOR_MAC not installed!" && exit 1
+    fi
   else
     SED="sed"
   fi
